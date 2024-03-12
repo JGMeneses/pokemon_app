@@ -1,16 +1,32 @@
-# poke_app
+# PokeCapture App
+Bem-vindo ao PokeCapture, um emocionante aplicativo Flutter que permite a captura de pokémons usando a Poke API. Este projeto foi desenvolvido como parte de um trabalho acadêmico em dupla com [Giovanna Oliveira](https://github.com/giovannaoliveira). Com uma interface amigável e recursos interativos, este aplicativo proporciona uma experiência única para os treinadores pokémon.
 
-A new Flutter project.
+### Funcionalidades
+#### 1. Captura de Pokémons
+Toque na tela para encontrar e capturar pokémons selvagens.
+A Poke API fornece uma variedade de espécies de pokémons para você explorar.
+#### 2. Meus Pokémons
+Na aba "Meus Pokémons", visualize todos os pokémons capturados.
+Diferencie entre um toque simples e um toque prolongado para acessar diferentes funcionalidades.
+#### 3. Detalhes do Pokémon
+Toque prolongado em um pokémon na aba "Meus Pokémons" para visualizar detalhes específicos do pokémon.
+Obtenha informações sobre habilidades, estatísticas e outros dados relevantes.
+#### 4. Soltar Pokémon
+Toque simples em um pokémon na aba "Meus Pokémons" para acessar a opção de soltar o pokémon.
+Confirme a liberação do pokémon para liberar espaço e continuar capturando mais.
 
-## Getting Started
+Configuração do Projeto
+#### 1. Clone este repositório:
+````
+  git clone https://github.com/seu-usuario/pokecapture.git
+````
 
-This project is a starting point for a Flutter application.
+#### 2. Navegue até o diretório do projeto:
+````
+  cd pokemon_app
+````
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### 3. Execute o aplicativo no seu dispositivo ou emulador:
+````
+  flutter run
+````
